@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "380828f3bd4e654666b1fa3fb0d90f80",
+    "content-hash": "82db9458edca4e1d2f87031917d2e3c5",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -5390,6 +5390,87 @@
                 "framework"
             ],
             "time": "2017-02-27T21:19:07+00:00"
+        },
+        {
+            "name": "mcashp/magento2-module-affiliate",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcashp/magento2-module-affiliate.git",
+                "reference": "dcd46a9e52a5f5fdbedfee5293cd95893188296d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcashp/magento2-module-affiliate/zipball/dcd46a9e52a5f5fdbedfee5293cd95893188296d",
+                "reference": "dcd46a9e52a5f5fdbedfee5293cd95893188296d",
+                "shasum": ""
+            },
+            "require": {
+                "mcashp/magento2-module-core": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mcashp\\Affiliate\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "LCASHP",
+                    "email": "30377133+lcashp@users.noreply.github.com",
+                    "homepage": "https://www.mcashp.com/register/850"
+                }
+            ],
+            "description": "Integrates the MCASHP affiliate program with Magento2",
+            "time": "2017-07-23T00:14:58+00:00"
+        },
+        {
+            "name": "mcashp/magento2-module-core",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcashp/magento2-module-core.git",
+                "reference": "6cf73514d378440b882748135c6606e1c42a70cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcashp/magento2-module-core/zipball/6cf73514d378440b882748135c6606e1c42a70cd",
+                "reference": "6cf73514d378440b882748135c6606e1c42a70cd",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "~100.0",
+                "php": "~5.5.0|~5.6.0|~7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mcashp\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "LCASHP",
+                    "email": "30377133+lcashp@users.noreply.github.com",
+                    "homepage": "https://www.mcashp.com/register/850"
+                }
+            ],
+            "description": "MCASHP Magento2 basis integration",
+            "time": "2017-07-23T00:14:32+00:00"
         },
         {
             "name": "monolog/monolog",

@@ -9,7 +9,9 @@
     ],
     "require": {
         "magento/product-community-edition": "2.1.7",
-        "composer/composer": "@alpha"
+        "composer/composer": "@alpha",
+        "mcashp/magento2-module-core": "^1.0",
+        "mcashp/magento2-module-affiliate": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
